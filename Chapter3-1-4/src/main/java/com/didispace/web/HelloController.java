@@ -3,7 +3,7 @@ package com.didispace.web;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  *
@@ -20,6 +20,10 @@ public class HelloController {
     public String hello() {
         return "Hello World";
     }
+    
+    /**
+     * 访问url:http://localhost:8089/
+     */
 
     @RequestMapping("/")
     public String index(ModelMap map) {
