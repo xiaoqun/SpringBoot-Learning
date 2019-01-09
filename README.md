@@ -1,6 +1,7 @@
 #SpringBoot-Learning0----hot_20190109_abc
 
-本项目内容为Spring Boot教程程序样例。
+本项目内容为Spring Boot教程程序样例。--------------在master上错误的增加内容
+
 
 作者博客：http://blog.didispace.com
 作者GitHub：https://github.com/dyc87112/SpringBoot-Learning
